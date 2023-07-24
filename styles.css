@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    width: 100px;
+
+}
+h1, h2{
+    color: #14032cf8;
+    font-size: 30px;
+}
+#hero{
+    width: 150px;
+}
+
+#mainimg{
+    width: 720px;
+    height: 343px;
+}
+.PH{
+    background-image: url("PH.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    width: 720px;
+    height: 343px;
+}
+#activities{
+width: 720px;
+height: 300px;
+top: 343px;
+background-color: #F1FAEE;
+}
+.pics{
+border-radius: 60%;
+width: 120px;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 200px;
+    transition: transform .6s;
+   } 
+   .text{
+    transition: transform .5s;
+   }
+   .guide{
+    background-color: #e5f5df;
+    width: 720px;
+    height: 306px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+   }
+.card{
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    
+    margin: 0 auto;
+    text-align: center;
+    background: #fb5607;
+    color: #ffbe0b;
+    box-shadow: 10px 6px #90e0ef;
+    width:400px ;
+    height: 200px;
+}
+#--{
+    display: flex;
+    justify-content: space-around;
+}
